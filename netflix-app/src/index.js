@@ -21,7 +21,7 @@ ReactDOM.render(
     <h1 className="heading_style">List of Top Netflix Series in 2021</h1>
    {Sdata.map(
     
-    (val,index,arr)=>{
+    (val,index,array)=>{
     console.log(val); 
     return(
       <Card 
